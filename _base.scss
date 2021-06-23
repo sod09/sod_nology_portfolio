@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$font-body: "Poppins", sans-serif;
+
+$color-primary: #615EEC;
+$color-secondary: #FC88B9;
+$color-white: #fafafa; 
+
 * {
-  background-color: red;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-body;
+  }
+  
+  a:link,
+  a:visited {
+      text-decoration: none;
+  }
