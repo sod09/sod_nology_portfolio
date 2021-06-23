@@ -1,4 +1,53 @@
-h1 {
-  font-family: $font-body;
-  background-color: $color-primary;
+nav {
+  background-color: $color-secondary;
+  color: $color-primary;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  position: fixed;
+  padding: 32px 60px;
+  position: absolute;
+  width: 100%;
+  height: 124px;
+  
+  h1 {
+    align-items: left;
+    font-weight: bold;
+    position: static;
+    left: 3.75%;
+    right: 87.08%;
+    top: 25.81%;
+    bottom: 45.97%;
+    font-size: 36px;
+    line-height: 54px;
+    width: 25%;
+
+  }
+
+  li {
+    display: inline-block;
+    list-style: none;
+    font-weight: bold;
+    left: 70.23%;
+    right: 0%;
+    top: 1.85%;
+    bottom: -1.85%;
+    font-size: 36px;
+    line-height: 54px;
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+  }
+
+  a:hover {
+    border-bottom: $color-primary 5px solid;
+    cursor: pointer;
+  }
+
+  
+
 }
