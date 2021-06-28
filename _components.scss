@@ -7,7 +7,7 @@ nav {
   max-width: 100%;
   padding: 32px 60px;
   height: 20vh;
-  
+
   .nav__logo {
     font-weight: bold;
     font-size: 36px;
@@ -33,7 +33,6 @@ nav {
     border-bottom: $color-primary 5px solid;
     cursor: pointer;
   }
-
 }
 
 .intro {
@@ -43,7 +42,7 @@ nav {
   text-align: left;
   justify-content: left;
   padding: 100px 0px 0px 90px;
-  
+
   .intro__heading {
     font-size: 48px;
     line-height: 72px;
@@ -59,20 +58,84 @@ nav {
     line-height: 72px;
   }
 
-  .intro__scroll {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 96vh;
-  
-  .intro_scrollme {
-    color: $color-secondary;
-    transform: rotate(90deg);
-    float: right;
-    }
+  // h3 {
+  //   color: $color-secondary;
+  //   text-align: right;
+  //   transform: rotate(90deg);
+  // }
 }
 
+.about {
+  background-color: $color-secondary;
+  width: 100%;
+  height: 50vh;
 
+  .about__title {
+    color: $color-primary;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .about__text {
+    color: $color-white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+
+  .about__education__title {
+    color: $color-primary;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .about__education {
+    color: $color-white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 24px;
+  }
 }
 
+.grid {
+  background-color: $color-primary;
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-areas: 'first_icon second_icon third_icon fourth_icon fifth_icon' 'skills_text skills_text skills_text skills_text skills_text';
+  text-align: center;
+  align-items: center;
+  color: $color-white;
+ 
+  .first_icon {
+    grid-area: first_icon;
+  }
 
+  .second_icon {
+    grid-area: second_icon;
+  }
+
+  .fourth_icon {
+    grid-area: fourth_icon;
+  }
+
+  .fifth_icon {
+    grid-area: fifth_icon;
+  }
+
+  .skills_text {
+    grid-area: skills_text;
+  }
+
+  li {
+    text-align: left;
+    padding-left: 180px;
+    padding-bottom: 25px;
+    list-style-type: none;
+    font-size: 18px;
+  }
+}
