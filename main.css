@@ -155,29 +155,56 @@ nav a:hover {
   background-color: #615EEC;
   height: 60vh;
 }
-.find_out_more_section .find_out_more__heading {
+.find_out_more_section .form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #615EEC;
+  padding-top: 50px;
+}
+.find_out_more_section input {
+  width: 310px;
+  height: 66px;
+  border: 5px solid #FC88B9;
+  border-radius: 10px;
+}
+.find_out_more_section textarea {
+  border: 5px solid #FC88B9;
+  border-radius: 10px;
+  width: 310px;
+  height: 150px;
+  color: #615EEC;
+}
+.find_out_more_section ::placeholder {
+  color: #615EEC;
+  opacity: 0.8;
+}
+.find_out_more_section .form__heading {
   color: #FC88B9;
   text-align: center;
   padding-top: 50px;
   font-weight: bold;
   font-size: 36px;
 }
-.find_out_more_section .find_out_more__form {
-  color: #615EEC;
-  padding: 20px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-}
-.find_out_more_section .button {
+.find_out_more_section .form__button {
   border: 5px solid #FC88B9;
+  color: #FC88B9;
+  background-color: #615EEC;
+  margin: 20px;
   border-radius: 10px;
+  font-size: 16px;
   font-weight: bold;
+  width: 200px;
+  height: 50px;
 }
 
 .socials {
   background-color: #FC88B9;
   height: 30vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  color: #fafafa;
 }
 
 .footer {

@@ -169,7 +169,39 @@ nav {
   background-color: $color-primary;
   height: 60vh;
 
-  .find_out_more__heading {
+  .form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: $color-primary;
+    padding-top: 50px;
+  
+  }
+
+  input {
+    width: 310px;
+    height: 66px;
+    border: 5px solid $color-secondary;
+    border-radius: 10px;
+  }
+
+  textarea {
+    border: 5px solid $color-secondary;
+    border-radius: 10px;
+    width: 310px;
+    height: 150px;
+    color: $color-primary
+    opacity: 0.8;
+  }
+
+  ::placeholder {
+    color: $color-primary;
+    opacity: 0.8;
+  
+  }
+
+
+  .form__heading {
     color: $color-secondary;
     text-align: center;
     padding-top: 50px;
@@ -177,24 +209,27 @@ nav {
     font-size: 36px;
   }
 
-  .find_out_more__form {
-    color: $color-primary;
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .button {
+  .form__button {
     border: 5px solid $color-secondary;
+    color: $color-secondary;
+    background-color: $color-primary;
+    margin: 20px;
     border-radius: 10px;
+    font-size: 16px;
     font-weight: bold;
+    width: 200px;
+    height: 50px;
   }
 }
 
 .socials {
   background-color: $color-secondary;
   height: 30vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  color: $color-white;
+
 }
 
 .footer {
