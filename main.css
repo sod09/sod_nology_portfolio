@@ -129,6 +129,67 @@ nav a:hover {
   font-size: 18px;
 }
 
+.projects {
+  background-color: #FC88B9;
+  height: 100vh;
+  width: 100%;
+}
+.projects .projects__header {
+  color: #615EEC;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.projects .project__image {
+  float: left;
+  width: 30%;
+  padding-top: 25px;
+  padding-left: 100px;
+  height: 80%;
+  text-align: center;
+  object-fit: cover;
+}
+
+.find_out_more_section {
+  background-color: #615EEC;
+  height: 60vh;
+}
+.find_out_more_section .find_out_more__heading {
+  color: #FC88B9;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 36px;
+}
+.find_out_more_section .find_out_more__form {
+  color: #615EEC;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.find_out_more_section .button {
+  border: 5px solid #FC88B9;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.socials {
+  background-color: #FC88B9;
+  height: 30vh;
+}
+
+.footer {
+  background-color: #615EEC;
+  color: #FC88B9;
+  height: 10vh;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  font-size: small;
+}
+
 .header {
   background-color: #615EEC;
   color: #fafafa;

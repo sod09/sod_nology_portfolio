@@ -139,3 +139,71 @@ nav {
     font-size: 18px;
   }
 }
+
+.projects {
+  background-color: $color-secondary;
+  height: 100vh;
+  width: 100%;
+
+  .projects__header {
+    color: $color-primary;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  .project__image {
+    float: left;
+    width: 30%;
+    padding-top: 25px;
+    padding-left: 100px;
+    height: 80%;
+    text-align: center;
+    object-fit: cover;
+    // border-radius: 10px;    - add border with radius 
+  }
+}
+
+.find_out_more_section {
+  background-color: $color-primary;
+  height: 60vh;
+
+  .find_out_more__heading {
+    color: $color-secondary;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .find_out_more__form {
+    color: $color-primary;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button {
+    border: 5px solid $color-secondary;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+}
+
+.socials {
+  background-color: $color-secondary;
+  height: 30vh;
+}
+
+.footer {
+  background-color: $color-primary;
+  color: $color-secondary;
+  height: 10vh;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  font-size: small; 
+  // Why does font-size not go to 24?
+}
