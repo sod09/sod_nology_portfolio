@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  letter-spacing: 0.75px;
 }
 
 a:link,
@@ -160,13 +161,17 @@ nav a:hover {
   align-items: center;
   flex-direction: column;
   color: #615EEC;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .find_out_more_section input {
   width: 310px;
   height: 66px;
   border: 5px solid #FC88B9;
   border-radius: 10px;
+  margin: 5px;
+}
+.find_out_more_section .form__name {
+  margin-top: 50px;
 }
 .find_out_more_section textarea {
   border: 5px solid #FC88B9;
@@ -202,9 +207,13 @@ nav a:hover {
   background-color: #FC88B9;
   height: 30vh;
   width: 100%;
-  text-align: center;
-  align-items: center;
   color: #fafafa;
+  padding-top: 100px;
+}
+.socials .socials__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer {
@@ -214,7 +223,7 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding-top: 25px;
-  font-size: small;
+  font-size: smaller;
 }
 
 .header {
