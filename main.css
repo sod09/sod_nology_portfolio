@@ -281,7 +281,9 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding-top: 25px;
-  font-size: smaller;
+}
+.footer h1 {
+  font-size: 24px;
 }
 
 .header {
@@ -293,8 +295,30 @@ nav a:hover {
 
 /* smartphones */
 @media screen and (max-width: 768px) {
+  * {
+    max-width: 100vw;
+  }
+
   .header {
-    width: 100%;
+    max-width: 100vh;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 32px 60px;
+    height: 10vh;
+  }
+  nav .nav__logo {
+    display: none;
+  }
+  nav li {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 54px;
+    padding: 0 20px;
   }
 
   .intro {
@@ -304,29 +328,105 @@ nav a:hover {
     text-align: center;
     justify-content: center;
   }
-
-  .intro__heading {
-    font-size: 16px;
-    line-height: 10px;
-  }
-
-  .intro__subheading {
+  .intro .intro__heading {
     font-size: 36px;
-    line-height: 50px;
+    line-height: 54px;
+  }
+  .intro .intro__subheading {
+    font-size: 62px;
+    line-height: 93px;
+  }
+  .intro .intro__end {
+    font-size: 36px;
+    line-height: 54px;
+  }
+  .intro h3 {
+    font-size: 16px;
+    padding-top: 20px;
   }
 
-  .intro__end {
+  .about {
+    height: 100vh;
+  }
+  .about .about__title {
+    font-size: 24px;
+  }
+  .about .about__text {
     font-size: 16px;
-    line-height: 10px;
+  }
+  .about .about__education__title {
+    font-size: 24px;
+  }
+  .about .about__education {
+    font-size: 16px;
   }
 
-  h3 {
-    text-align: center;
-    writing-mode: vertical;
-    text-orientation: mixed;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    font-size: 16px;
+  .skills {
+    height: 10vh;
+    font-size: 24px;
+  }
+
+  .grid {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "first_icon second_icon" "third_icon fourth_icon" "fifth_icon";
+  }
+  .grid li {
+    display: none;
+  }
+
+  .projects {
+    height: 100vh;
+    max-width: 100%;
+  }
+  .projects .projects__header {
+    font-size: 24px;
     font-weight: bold;
+  }
+  .projects .projects__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .projects .project__image {
+    height: 25vh;
+    width: 30vh;
+    object-fit: cover;
+    padding: 5px;
+  }
+
+  .find_out_more_section {
+    height: 80vh;
+  }
+  .find_out_more_section .form {
+    padding-top: 20px;
+  }
+  .find_out_more_section input {
+    margin: 5px;
+  }
+  .find_out_more_section .form__heading {
+    font-size: 24px;
+  }
+
+  .socials {
+    height: 20vh;
+    padding-top: 25px;
+  }
+  .socials .socials__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .footer {
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+  }
+  .footer h1 {
+    font-size: 16px;
   }
 }

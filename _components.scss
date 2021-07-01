@@ -14,7 +14,6 @@ nav {
     line-height: 54px;
   }
 
-  
   li {
     display: inline-block;
     list-style: none;
@@ -131,8 +130,6 @@ nav {
   text-align: center;
   align-items: center;
   color: $color-white;
-
-  // 'skills_text skills_text skills_text skills_text skills_text'
  
   .first_icon {
     grid-area: first_icon;
@@ -315,6 +312,8 @@ nav {
   justify-content: center;
   text-align: center;
   padding-top: 25px;
-  font-size: smaller; 
-  // Why does font-size not go to 24?
+
+  h1 {
+  font-size: 24px; 
+  }
 }
