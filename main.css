@@ -20,7 +20,7 @@ nav {
   justify-content: space-between;
   max-width: 100%;
   padding: 32px 60px;
-  height: 20vh;
+  height: 10vh;
 }
 nav .nav__logo {
   font-weight: bold;
@@ -64,6 +64,16 @@ nav a:hover {
   font-size: 48px;
   line-height: 72px;
 }
+.intro h3 {
+  color: #FC88B9;
+  text-align: right;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 .about {
   background-color: #FC88B9;
@@ -79,8 +89,8 @@ nav a:hover {
 }
 .about .about__text {
   color: #fafafa;
-  text-align: center;
-  padding-top: 25px;
+  text-align: justify;
+  padding: 25px 75px 0px 75px;
   font-size: 24px;
 }
 .about .about__education__title {
@@ -97,6 +107,15 @@ nav a:hover {
   font-size: 24px;
 }
 
+.skills {
+  background-color: #615EEC;
+  color: #FC88B9;
+  height: 10vh;
+  text-align: center;
+  font-size: 36px;
+  padding: 50px;
+}
+
 .grid {
   background-color: #615EEC;
   width: 100%;
@@ -105,7 +124,7 @@ nav a:hover {
   grid-template-areas: "first_icon second_icon third_icon fourth_icon fifth_icon" "skills_text skills_text skills_text skills_text skills_text";
   text-align: center;
   align-items: center;
-  color: #fafafa;
+  color: #FC88B9;
 }
 .grid .first_icon {
   grid-area: first_icon;
@@ -128,12 +147,13 @@ nav a:hover {
   padding-bottom: 25px;
   list-style-type: none;
   font-size: 18px;
+  color: #fafafa;
 }
 
 .projects {
   background-color: #FC88B9;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
 }
 .projects .projects__header {
   color: #615EEC;
@@ -142,14 +162,26 @@ nav a:hover {
   font-weight: bold;
   padding-top: 50px;
 }
+.projects .projects__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .projects .project__image {
-  float: left;
   width: 30%;
   padding-top: 25px;
   padding-left: 100px;
   height: 80%;
-  text-align: center;
+  width: 30%;
   object-fit: cover;
+  transition: 0.9s;
+}
+.projects .project__image:hover {
+  -ms-transform: scale(0.93);
+  -webkit-transform: scale(0.93);
+  transform: scale(0.93);
 }
 
 .find_out_more_section {
@@ -168,10 +200,7 @@ nav a:hover {
   height: 66px;
   border: 5px solid #FC88B9;
   border-radius: 10px;
-  margin: 5px;
-}
-.find_out_more_section .form__name {
-  margin-top: 50px;
+  margin: 10px;
 }
 .find_out_more_section textarea {
   border: 5px solid #FC88B9;
@@ -209,11 +238,27 @@ nav a:hover {
   width: 100%;
   color: #fafafa;
   padding-top: 100px;
+  /* Visited link    */
+  /* Mouse over link */
+  /* Selected link   */
 }
 .socials .socials__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.socials a {
+  color: #fafafa;
+  /* Unvisited link  */
+}
+.socials a:visited {
+  color: #fafafa;
+}
+.socials a:hover {
+  color: #615EEC;
+}
+.socials a:active {
+  color: #615EEC;
 }
 
 .footer {
@@ -229,6 +274,6 @@ nav a:hover {
 .header {
   background-color: #615EEC;
   color: #fafafa;
-  width: 100%;
-  height: 100vh;
+  max-width: 100%;
+  height: 90vh;
 }

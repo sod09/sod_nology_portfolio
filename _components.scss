@@ -6,7 +6,7 @@ nav {
   justify-content: space-between;
   max-width: 100%;
   padding: 32px 60px;
-  height: 20vh;
+  height: 10vh;
   
 
   .nav__logo {
@@ -59,11 +59,20 @@ nav {
     line-height: 72px;
   }
 
-  // h3 {
-  //   color: $color-secondary;
-  //   text-align: right;
-  //   transform: rotate(90deg);
-  // }
+  h3 {
+    color: $color-secondary;
+    text-align: right;
+    // transform: rotate(90deg);
+    // border: 2px solid black;
+    // text-orientation: sideways-right;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
 }
 
 .about {
@@ -81,9 +90,11 @@ nav {
 
   .about__text {
     color: $color-white;
-    text-align: center;
-    padding-top: 25px;
+    text-align: justify;
+    padding: 25px 75px 0px 75px;
     font-size: 24px;
+    
+
   }
 
   .about__education__title {
@@ -102,6 +113,14 @@ nav {
   }
 }
 
+.skills {
+  background-color: $color-primary;
+  color: $color-secondary;
+  height: 10vh;
+  text-align: center;
+  font-size: 36px;
+  padding: 50px;
+}
 .grid {
   background-color: $color-primary;
   width: 100%;
@@ -110,7 +129,7 @@ nav {
   grid-template-areas: 'first_icon second_icon third_icon fourth_icon fifth_icon' 'skills_text skills_text skills_text skills_text skills_text';
   text-align: center;
   align-items: center;
-  color: $color-white;
+  color: $color-secondary;
  
   .first_icon {
     grid-area: first_icon;
@@ -138,13 +157,15 @@ nav {
     padding-bottom: 25px;
     list-style-type: none;
     font-size: 18px;
+    color: $color-white;
   }
 }
 
 .projects {
   background-color: $color-secondary;
   height: 100vh;
-  width: 100%;
+  max-width: 100%;
+
 
   .projects__header {
     color: $color-primary;
@@ -154,15 +175,29 @@ nav {
     padding-top: 50px;
   }
 
+  .projects__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
   .project__image {
-    float: left;
     width: 30%;
     padding-top: 25px;
     padding-left: 100px;
     height: 80%;
-    text-align: center;
+    width: 30%;
     object-fit: cover;
     // border-radius: 10px;    - add border with radius 
+    transition: 0.9s;
+  }
+
+  .project__image:hover {
+    -ms-transform: scale(0.93);
+    -webkit-transform: scale(0.93);
+    transform: scale(0.93);
   }
 }
 
@@ -183,11 +218,7 @@ nav {
     height: 66px;
     border: 5px solid $color-secondary;
     border-radius: 10px;
-    margin: 5px;
-  }
-
-  .form__name {
-    margin-top: 50px;
+    margin: 10px;
   }
 
   textarea {
@@ -196,12 +227,12 @@ nav {
     width: 310px;
     height: 150px;
     color: $color-primary
-  }
+  } 
+  // does not work if change to form__message?
 
   ::placeholder {
     color: $color-primary;
-    opacity: 0.8;
-  
+    opacity: 0.8; 
   }
 
 
@@ -237,8 +268,23 @@ nav {
     display:flex;
     justify-content: space-around;
     align-items: center;
-    
-    }
+  }
+
+  a {
+    color: $color-white;/* Unvisited link  */
+  }         
+
+  a:visited {
+    color: $color-white;
+  } /* Visited link    */
+
+  a:hover {
+    color: $color-primary;
+  }   /* Mouse over link */
+
+  a:active {
+    color: $color-primary;
+  }  /* Selected link   */
   
 }
 
