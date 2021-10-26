@@ -84,6 +84,7 @@ nav {
     padding-top: 50px;
     font-weight: bold;
     font-size: 36px;
+    padding-bottom: 50px;
   }
 
   .about__text {
@@ -106,6 +107,7 @@ nav {
     text-align: center;
     padding-top: 25px;
     font-size: 24px;
+    padding-bottom: 50px;
   }
 }
 
@@ -117,6 +119,7 @@ nav {
   font-size: 36px;
   padding: 50px;
   max-width: 100%;
+  padding-bottom: 50px;
 }
 .grid {
   background-color: $color-primary;
@@ -191,6 +194,7 @@ nav {
     font-size: 36px;
     font-weight: bold;
     padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .projects__container {
@@ -202,10 +206,12 @@ nav {
   }
 
   .project__image {
-    padding-top: 25px;
+    // padding-top: 25px;
     height: 80vh;
     width: 60vh;
     object-fit: fill;
+    border: solid $color-white 10px;
+    border-radius: 20px;
   }
 
   .project__image:hover {
@@ -243,7 +249,6 @@ nav {
     height: 150px;
     color: $color-primary;
   }
-  // does not work if change to form__message?
 
   ::placeholder {
     color: $color-primary;
@@ -256,6 +261,7 @@ nav {
     padding-top: 50px;
     font-weight: bold;
     font-size: 36px;
+    padding-bottom: 50px;
   }
 
   .form__button {
