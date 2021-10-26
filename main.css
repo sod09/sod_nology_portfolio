@@ -13,8 +13,8 @@ a:visited {
 }
 
 nav {
-  background-color: #FC88B9;
-  color: #615EEC;
+  background-color: #fc88b9;
+  color: #615eec;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,11 +36,11 @@ nav li {
   padding: 0 20px;
 }
 nav a {
-  color: #615EEC;
+  color: #615eec;
   text-decoration: none;
 }
 nav a:hover {
-  border-bottom: #615EEC 5px solid;
+  border-bottom: #615eec 5px solid;
   cursor: pointer;
 }
 
@@ -65,7 +65,7 @@ nav a:hover {
   line-height: 72px;
 }
 .intro h3 {
-  color: #FC88B9;
+  color: #fc88b9;
   text-align: right;
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -76,12 +76,12 @@ nav a:hover {
 }
 
 .about {
-  background-color: #FC88B9;
+  background-color: #fc88b9;
   max-width: 100%;
   height: 50vh;
 }
 .about .about__title {
-  color: #615EEC;
+  color: #615eec;
   text-align: center;
   padding-top: 50px;
   font-weight: bold;
@@ -94,7 +94,7 @@ nav a:hover {
   font-size: 24px;
 }
 .about .about__education__title {
-  color: #615EEC;
+  color: #615eec;
   text-align: center;
   padding-top: 50px;
   font-weight: bold;
@@ -108,8 +108,8 @@ nav a:hover {
 }
 
 .skills {
-  background-color: #615EEC;
-  color: #FC88B9;
+  background-color: #615eec;
+  color: #fc88b9;
   height: 10vh;
   text-align: center;
   font-size: 36px;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 .grid {
-  background-color: #615EEC;
+  background-color: #615eec;
   max-width: 100%;
   height: 50vh;
   display: grid;
@@ -165,12 +165,12 @@ nav a:hover {
 }
 
 .projects {
-  background-color: #FC88B9;
+  background-color: #fc88b9;
   height: 100vh;
   max-width: 100%;
 }
 .projects .projects__header {
-  color: #615EEC;
+  color: #615eec;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
@@ -187,7 +187,7 @@ nav a:hover {
   padding-top: 25px;
   height: 80vh;
   width: 60vh;
-  object-fit: cover;
+  object-fit: fill;
 }
 .projects .project__image:hover {
   -ms-transform: scale(0.93);
@@ -196,7 +196,7 @@ nav a:hover {
 }
 
 .find_out_more_section {
-  background-color: #615EEC;
+  background-color: #615eec;
   height: 60vh;
   max-width: 100%;
 }
@@ -204,38 +204,38 @@ nav a:hover {
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: #615EEC;
+  color: #615eec;
   padding-top: 20px;
 }
 .find_out_more_section input {
   width: 310px;
   height: 66px;
-  border: 5px solid #FC88B9;
+  border: 5px solid #fc88b9;
   border-radius: 10px;
   margin: 10px;
 }
 .find_out_more_section textarea {
-  border: 5px solid #FC88B9;
+  border: 5px solid #fc88b9;
   border-radius: 10px;
   width: 310px;
   height: 150px;
-  color: #615EEC;
+  color: #615eec;
 }
 .find_out_more_section ::placeholder {
-  color: #615EEC;
+  color: #615eec;
   opacity: 0.8;
 }
 .find_out_more_section .form__heading {
-  color: #FC88B9;
+  color: #fc88b9;
   text-align: center;
   padding-top: 50px;
   font-weight: bold;
   font-size: 36px;
 }
 .find_out_more_section .form__button {
-  border: 5px solid #FC88B9;
-  color: #FC88B9;
-  background-color: #615EEC;
+  border: 5px solid #fc88b9;
+  color: #fc88b9;
+  background-color: #615eec;
   margin: 20px;
   border-radius: 10px;
   font-size: 16px;
@@ -245,7 +245,7 @@ nav a:hover {
 }
 
 .socials {
-  background-color: #FC88B9;
+  background-color: #fc88b9;
   height: 30vh;
   max-width: 100%;
   color: #fafafa;
@@ -267,16 +267,16 @@ nav a:hover {
   color: #fafafa;
 }
 .socials a:hover {
-  color: #615EEC;
+  color: #615eec;
 }
 .socials a:active {
-  color: #615EEC;
+  color: #615eec;
 }
 
 .footer {
   max-width: 100%;
-  background-color: #615EEC;
-  color: #FC88B9;
+  background-color: #615eec;
+  color: #fc88b9;
   height: 10vh;
   justify-content: center;
   text-align: center;
@@ -287,7 +287,7 @@ nav a:hover {
 }
 
 .header {
-  background-color: #615EEC;
+  background-color: #615eec;
   color: #fafafa;
   max-width: 100%;
   height: 90vh;
@@ -429,4 +429,75 @@ nav a:hover {
   .footer h1 {
     font-size: 16px;
   }
+}
+.project__modalone {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 80%;
+  z-index: 2;
+}
+.project__modalone .projectmodalone__container {
+  color: #fafafa;
+  background-color: #615eec;
+  height: 90%;
+}
+.project__modalone .projectmodalone__container .projectmodalone__image {
+  display: block;
+  padding: 20px 20px;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__maincontent {
+  width: 70%;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__maincontent .projectmodalone__header {
+  font-size: 40px;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__maincontent .projectmodalone__subheader {
+  font-size: 30px;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__maincontent .projectmodalone__text {
+  color: #fafafa;
+  font-size: 28px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__skillscontainer {
+  width: 30%;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__skillscontainer .skills_header {
+  font-size: 25px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__skillscontainer .skills__tag {
+  padding: 5px 5px;
+  background-color: #fafafa;
+  color: #fc88b9;
+  border-radius: 10px;
+  width: 30%;
+  margin: 5px;
+  font-size: 18px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__buttons {
+  padding: 20px 20px;
+}
+.project__modalone .projectmodalone__container .projectmodalone__buttons button {
+  padding: 20px 20px;
+  width: 150px;
+  background-color: #fc88b9;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
 }
