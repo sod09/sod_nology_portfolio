@@ -109,64 +109,6 @@ nav a:hover {
   padding-bottom: 50px;
 }
 
-.skills {
-  background-color: #615eec;
-  color: #fc88b9;
-  height: 10vh;
-  text-align: center;
-  font-size: 36px;
-  padding: 50px;
-  max-width: 100%;
-  padding-bottom: 50px;
-}
-
-.grid {
-  background-color: #615eec;
-  max-width: 100%;
-  height: 50vh;
-  display: grid;
-  grid-template-areas: "first_icon second_icon third_icon fourth_icon fifth_icon" "first_text second_text third_text fourth_text fifth_text";
-  text-align: center;
-  align-items: center;
-  color: #fafafa;
-}
-.grid .first_icon {
-  grid-area: first_icon;
-}
-.grid .second_icon {
-  grid-area: second_icon;
-}
-.grid .fourth_icon {
-  grid-area: fourth_icon;
-}
-.grid .fifth_icon {
-  grid-area: fifth_icon;
-}
-.grid .first_text {
-  grid-area: first_text;
-}
-.grid .second_text {
-  grid-area: second_text;
-}
-.grid .third_text {
-  grid-area: third_text;
-}
-.grid .fourth_text {
-  grid-area: fourth_text;
-}
-.grid .fifth_text {
-  grid-area: fifth_text;
-}
-.grid li {
-  text-align: left;
-  padding-left: 150px;
-  padding-bottom: 25px;
-  list-style-type: none;
-  font-size: 18px;
-  color: #fafafa;
-  line-height: 5px;
-}
-
 .projects {
   color: #615eec;
   height: 100vh;
@@ -212,7 +154,9 @@ nav a:hover {
   font-size: 24px;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__button__javascript_smiles_game {
-  width: 150px;
+  padding: 20px 20px;
+  margin-top: 100px;
+  width: 300px;
   background-color: #fc88b9;
   color: #fafafa;
   font-size: 18px;
@@ -239,8 +183,10 @@ nav a:hover {
   font-size: 24px;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__button__memory_game {
-  width: 150px;
-  background-color: #fc88b9;
+  padding: 20px 20px;
+  margin-top: 100px;
+  width: 300px;
+  background-color: #615eec;
   color: #fafafa;
   font-size: 18px;
   border-radius: 10px;
@@ -248,6 +194,74 @@ nav a:hover {
   border: none;
 }
 .projects .projects__container .projects__memory_game .image__memory_game {
+  height: 100%;
+  width: 50%;
+  opacity: 50%;
+}
+.projects .projects__morse {
+  display: flex;
+  background-color: #615eec;
+  height: 50vh;
+}
+.projects .projects__morse .project__textcontainer__morse {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  color: #fafafa;
+}
+.projects .projects__morse .project__textcontainer__morse .project__header__morse {
+  font-size: 48px;
+  padding-bottom: 50px;
+}
+.projects .projects__morse .project__textcontainer__morse .project__text__morse {
+  font-size: 24px;
+}
+.projects .projects__morse .project__textcontainer__morse .project__button__morse {
+  padding: 20px 20px;
+  margin-top: 100px;
+  width: 300px;
+  background-color: #fc88b9;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.projects .projects__morse .image__morse {
+  height: 100%;
+  width: 50%;
+  opacity: 50%;
+}
+.projects .projects__calculator {
+  display: flex;
+  background-color: #fc88b9;
+  height: 50vh;
+}
+.projects .projects__calculator .project__textcontainer__calculator {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  color: #fafafa;
+}
+.projects .projects__calculator .project__textcontainer__calculator .project__header__calculator {
+  font-size: 48px;
+  padding-bottom: 50px;
+}
+.projects .projects__calculator .project__textcontainer__calculator .project__text__calculator {
+  font-size: 24px;
+}
+.projects .projects__calculator .project__textcontainer__calculator .project__button__calculator {
+  padding: 20px 20px;
+  margin-top: 100px;
+  width: 300px;
+  background-color: #615eec;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.projects .projects__calculator .image__calculator {
   height: 100%;
   width: 50%;
   opacity: 50%;
@@ -447,9 +461,9 @@ nav a:hover {
 }
 .project__modalone {
   display: flex;
+  align-items: center;
+  flex-direction: row;
   position: absolute;
-  flex-direction: column;
-  width: 80%;
   z-index: 2;
 }
 .project__modalone .projectmodalone__container {
@@ -579,6 +593,150 @@ nav a:hover {
   padding: 20px 20px;
 }
 .project__modaltwo .projectmodaltwo__container .projectmodaltwo__buttons button {
+  padding: 20px 20px;
+  width: 150px;
+  background-color: #fc88b9;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.project__modalthree {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 80%;
+  z-index: 2;
+}
+.project__modalthree .projectmodalthree__container {
+  color: #fafafa;
+  background-color: #615eec;
+  height: 90%;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__image {
+  display: block;
+  padding: 20px 20px;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__maincontent {
+  width: 70%;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__maincontent .projectmodalthree__header {
+  font-size: 40px;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__maincontent .projectmodalthree__subheader {
+  font-size: 30px;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__maincontent .projectmodalthree__text {
+  color: #fafafa;
+  font-size: 28px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__skillscontainer {
+  width: 30%;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__skillscontainer .skills_header {
+  font-size: 25px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__skillscontainer .skills__tag {
+  padding: 5px 5px;
+  background-color: #fafafa;
+  color: #fc88b9;
+  border-radius: 10px;
+  width: 30%;
+  margin: 5px;
+  font-size: 18px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__buttons {
+  padding: 20px 20px;
+}
+.project__modalthree .projectmodalthree__container .projectmodalthree__buttons button {
+  padding: 20px 20px;
+  width: 150px;
+  background-color: #fc88b9;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.project__modalfour {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 80%;
+  z-index: 2;
+}
+.project__modalfour .projectmodalfour__container {
+  color: #fafafa;
+  background-color: #615eec;
+  height: 90%;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__image {
+  display: block;
+  padding: 20px 20px;
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 70%;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 20px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__maincontent {
+  width: 70%;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__maincontent .projectmodalfour__header {
+  font-size: 40px;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__maincontent .projectmodalfour__subheader {
+  font-size: 30px;
+  color: #fafafa;
+  padding-bottom: 10px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__maincontent .projectmodalfour__text {
+  color: #fafafa;
+  font-size: 28px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__skillscontainer {
+  width: 30%;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__skillscontainer .skills_header {
+  font-size: 25px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__textcontainer .projectmodalfour__skillscontainer .skills__tag {
+  padding: 5px 5px;
+  background-color: #fafafa;
+  color: #fc88b9;
+  border-radius: 10px;
+  width: 30%;
+  margin: 5px;
+  font-size: 18px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__buttons {
+  padding: 20px 20px;
+}
+.project__modalfour .projectmodalfour__container .projectmodalfour__buttons button {
   padding: 20px 20px;
   width: 150px;
   background-color: #fc88b9;

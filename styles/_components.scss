@@ -111,74 +111,74 @@ nav {
   }
 }
 
-.skills {
-  background-color: $color-primary;
-  color: $color-secondary;
-  height: 10vh;
-  text-align: center;
-  font-size: 36px;
-  padding: 50px;
-  max-width: 100%;
-  padding-bottom: 50px;
-}
-.grid {
-  background-color: $color-primary;
-  max-width: 100%;
-  height: 50vh;
-  display: grid;
-  grid-template-areas:
-    "first_icon second_icon third_icon fourth_icon fifth_icon"
-    "first_text second_text third_text fourth_text fifth_text";
-  text-align: center;
-  align-items: center;
-  color: $color-white;
+// .skills {
+//   background-color: $color-primary;
+//   color: $color-secondary;
+//   height: 10vh;
+//   text-align: center;
+//   font-size: 36px;
+//   padding: 50px;
+//   max-width: 100%;
+//   padding-bottom: 50px;
+// }
+// .grid {
+//   background-color: $color-primary;
+//   max-width: 100%;
+//   height: 50vh;
+//   display: grid;
+//   grid-template-areas:
+//     "first_icon second_icon third_icon fourth_icon fifth_icon"
+//     "first_text second_text third_text fourth_text fifth_text";
+//   text-align: center;
+//   align-items: center;
+//   color: $color-white;
 
-  .first_icon {
-    grid-area: first_icon;
-  }
+//   .first_icon {
+//     grid-area: first_icon;
+//   }
 
-  .second_icon {
-    grid-area: second_icon;
-  }
+//   .second_icon {
+//     grid-area: second_icon;
+//   }
 
-  .fourth_icon {
-    grid-area: fourth_icon;
-  }
+//   .fourth_icon {
+//     grid-area: fourth_icon;
+//   }
 
-  .fifth_icon {
-    grid-area: fifth_icon;
-  }
+//   .fifth_icon {
+//     grid-area: fifth_icon;
+//   }
 
-  .first_text {
-    grid-area: first_text;
-  }
+//   .first_text {
+//     grid-area: first_text;
+//   }
 
-  .second_text {
-    grid-area: second_text;
-  }
+//   .second_text {
+//     grid-area: second_text;
+//   }
 
-  .third_text {
-    grid-area: third_text;
-  }
+//   .third_text {
+//     grid-area: third_text;
+//   }
 
-  .fourth_text {
-    grid-area: fourth_text;
-  }
+//   .fourth_text {
+//     grid-area: fourth_text;
+//   }
 
-  .fifth_text {
-    grid-area: fifth_text;
-  }
+//   .fifth_text {
+//     grid-area: fifth_text;
+//   }
 
-  li {
-    text-align: left;
-    padding-left: 150px;
-    padding-bottom: 25px;
-    list-style-type: none;
-    font-size: 18px;
-    color: $color-white;
-    line-height: 5px;
-  }
-}
+//   li {
+//     text-align: left;
+//     padding-left: 150px;
+//     padding-bottom: 25px;
+//     list-style-type: none;
+//     font-size: 18px;
+//     color: $color-white;
+//     line-height: 5px;
+//   }
+// }
 
 // same issue here with BEM/element naming?
 
@@ -187,7 +187,6 @@ nav {
   height: 100vh;
   max-width: 100%;
 
-  
   .projects__header {
     color: $color-secondary;
     background-color: $color-primary;
@@ -206,95 +205,172 @@ nav {
     flex-wrap: wrap;
     background-color: $color-primary;
 
-        .projects__javascript_smiles_game {
-        display: flex;
-        height: 50vh;
+    .projects__javascript_smiles_game {
+      display: flex;
+      height: 50vh;
 
-    
-        .image__javascript_smiles_game {
-          height: 100%;
-          width: 50%;
-          opacity: 50%;
+      .image__javascript_smiles_game {
+        height: 100%;
+        width: 50%;
+        opacity: 50%;
+      }
+
+      .project__textcontainer__javascript_smiles_game {
+        height: 100%;
+        width: 50%;
+        padding: 10px;
+        color: $color-white;
+
+        .project__header__javascript_smiles_game {
+          font-size: 48px;
+          padding-bottom: 50px;
         }
 
-        .project__textcontainer__javascript_smiles_game { 
-          height: 100%;
-          width: 50%;
-          padding: 10px;
+        .project__text__javascript_smiles_game {
+          font-size: 24px;
+        }
+
+        .project__button__javascript_smiles_game {
+          padding: 20px 20px;
+          margin-top: 100px;
+          width: 300px;
+          background-color: $color-secondary;
           color: $color-white;
+          font-size: 18px;
+          border-radius: 10px;
+          cursor: pointer;
+          border: none;
+        }
+      }
+    }
 
-          .project__header__javascript_smiles_game {
-            font-size: 48px;
-            padding-bottom: 50px;
-          }
+    .projects__memory_game {
+      display: flex;
+      background-color: $color-secondary;
+      height: 50vh;
 
-          .project__text__javascript_smiles_game {
-            font-size: 24px;
-          }
- 
-          .project__button__javascript_smiles_game {
-            width: 150px;
-            background-color: $color-secondary;
-            color: $color-white;
-            font-size: 18px;
-            border-radius: 10px;
-            cursor: pointer;
-            border: none;
+      .project__textcontainer__memory_game {
+        height: 100%;
+        width: 50%;
+        padding: 10px;
+        color: $color-white;
 
-          }
+        .project__header__memory_game {
+          font-size: 48px;
+          padding-bottom: 50px;
+        }
+
+        .project__text__memory_game {
+          font-size: 24px;
+        }
+
+        .project__button__memory_game {
+          padding: 20px 20px;
+          margin-top: 100px;
+          width: 300px;
+          background-color: $color-primary;
+          color: $color-white;
+          font-size: 18px;
+          border-radius: 10px;
+          cursor: pointer;
+          border: none;
         }
       }
 
-
-          .projects__memory_game {
-            display: flex;
-            background-color: $color-secondary;
-            height: 50vh;
-  
-         
-  
-          .project__textcontainer__memory_game { 
-            height: 100%;
-            width: 50%;
-            padding: 10px;
-            color: $color-white;
-  
-            .project__header__memory_game {
-              font-size: 48px;
-              padding-bottom: 50px;
-            }
-  
-            .project__text__memory_game {
-              font-size: 24px;
-            }
-  
-            .project__button__memory_game {
-              width: 150px;
-              background-color: $color-secondary;
-              color: $color-white;
-              font-size: 18px;
-              border-radius: 10px;
-              cursor: pointer;
-              border: none;
-            }
-
-          }
-        
-            .image__memory_game {
-            height: 100%;
-            width: 50%;
-            opacity: 50%;
-            }
-        }
+      .image__memory_game {
+        height: 100%;
+        width: 50%;
+        opacity: 50%;
       }
-   }
-
-  .project__image:hover {
-    -ms-transform: scale(0.93);
-    -webkit-transform: scale(0.93);
-    transform: scale(0.93);
+    }
   }
 
+  .projects__morse {
+    display: flex;
+    background-color: $color-primary;
+    height: 50vh;
+
+    .project__textcontainer__morse {
+      height: 100%;
+      width: 50%;
+      padding: 10px;
+      color: $color-white;
+
+      .project__header__morse {
+        font-size: 48px;
+        padding-bottom: 50px;
+      }
+
+      .project__text__morse {
+        font-size: 24px;
+      }
+
+      .project__button__morse {
+        padding: 20px 20px;
+        margin-top: 100px;
+        width: 300px;
+        background-color: $color-secondary;
+        color: $color-white;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    .image__morse {
+      height: 100%;
+      width: 50%;
+      opacity: 50%;
+    }
+  }
+
+  .projects__calculator {
+    display: flex;
+    background-color: $color-secondary;
+    height: 50vh;
+
+    .project__textcontainer__calculator {
+      height: 100%;
+      width: 50%;
+      padding: 10px;
+      color: $color-white;
+
+      .project__header__calculator {
+        font-size: 48px;
+        padding-bottom: 50px;
+      }
+
+      .project__text__calculator {
+        font-size: 24px;
+      }
+
+      .project__button__calculator {
+        padding: 20px 20px;
+        margin-top: 100px;
+        width: 300px;
+        background-color: $color-primary;
+        color: $color-white;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+
+    .image__calculator {
+      height: 100%;
+      width: 50%;
+      opacity: 50%;
+    }
+  }
+}
+
+.project__image:hover {
+  -ms-transform: scale(0.93);
+  -webkit-transform: scale(0.93);
+  transform: scale(0.93);
+}
 
 // .find_out_more_section {
 //   background-color: $color-primary;
