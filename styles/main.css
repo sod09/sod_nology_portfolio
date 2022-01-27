@@ -535,7 +535,6 @@ nav a:hover {
   display: flex;
   position: absolute;
   flex-direction: column;
-  width: 80%;
   z-index: 2;
 }
 .project__modaltwo .projectmodaltwo__container {
@@ -607,7 +606,6 @@ nav a:hover {
   display: flex;
   position: absolute;
   flex-direction: column;
-  width: 80%;
   z-index: 2;
 }
 .project__modalthree .projectmodalthree__container {
@@ -679,7 +677,6 @@ nav a:hover {
   display: flex;
   position: absolute;
   flex-direction: column;
-  width: 80%;
   z-index: 2;
 }
 .project__modalfour .projectmodalfour__container {

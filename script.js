@@ -12,7 +12,7 @@ const projectInfoOne = () => {
   projectModalOne.innerHTML = `
 
 <section class="projectmodalone__container">
-<img class="projectmodalone__image" src="./smiles.gif">
+<img class="projectmodalone__image" src="./images/smiles.gif">
 
 <section class= "projectmodalone__textcontainer">
 <section class= "projectmodalone__maincontent">
@@ -59,7 +59,7 @@ const projectInfoTwo = () => {
   projectModalTwo.innerHTML = `
 
   <section class="projectmodaltwo__container">
-  <img class="projectmodaltwo__image" src="./memorygame.png">
+  <img class="projectmodaltwo__image" src="./images/memorygame.png">
 
   <section class= "projectmodaltwo__textcontainer">
   <section class= "projectmodaltwo__maincontent">
@@ -105,7 +105,7 @@ const projectInfoThree = () => {
   projectModalThree.innerHTML = `
 
   <section class="projectmodalthree__container">
-  <img class="projectmodalthree__image" src="./morse.gif">
+  <img class="projectmodalthree__image" src="./images/morse.gif">
 
   <section class= "projectmodalthree__textcontainer">
   <section class= "projectmodalthree__maincontent">
