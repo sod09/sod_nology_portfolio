@@ -44,7 +44,6 @@ nav {
 
   .intro__heading {
     font-size: 48px;
-    line-height: 72px;
   }
 
   .intro__subheading {
@@ -57,26 +56,24 @@ nav {
     line-height: 72px;
   }
 
-  h3 {
+  .intro__scroll {
     color: $color-secondary;
-    text-align: right;
+
     // transform: rotate(90deg);
     // border: 2px solid black;
     // text-orientation: sideways-right;
     writing-mode: vertical-rl;
-    text-orientation: mixed;
-    padding-right: 50px;
-    padding-bottom: 10px;
-    font-size: 20px;
+
+    font-size: 25px;
     font-weight: bold;
+    padding: 20px;
   }
-  //  again doesnt change if I change to BEM rather than name element?
 }
 
 .about {
   background-color: $color-secondary;
   max-width: 100%;
-  height: 50vh;
+  height: 50%;
 
   .about__title {
     color: $color-primary;
@@ -108,7 +105,7 @@ nav {
   .about__education__title {
     color: $color-primary;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5px;
     font-weight: bold;
     font-size: 36px;
   }
