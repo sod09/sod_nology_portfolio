@@ -168,12 +168,13 @@ nav a:hover {
 }
 
 .projects {
-  background-color: #fc88b9;
+  color: #615eec;
   height: 100vh;
   max-width: 100%;
 }
 .projects .projects__header {
-  color: #615eec;
+  color: #fc88b9;
+  background-color: #615eec;
   text-align: center;
   font-size: 36px;
   font-weight: bold;
@@ -186,68 +187,76 @@ nav a:hover {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  background-color: #615eec;
 }
-.projects .project__image {
-  height: 80vh;
-  width: 60vh;
-  object-fit: fill;
-  border: solid #fafafa 10px;
-  border-radius: 20px;
+.projects .projects__container .projects__javascript_smiles_game {
+  display: flex;
+  height: 50vh;
 }
-.projects .project__image:hover {
+.projects .projects__container .projects__javascript_smiles_game .image__javascript_smiles_game {
+  height: 100%;
+  width: 50%;
+  opacity: 50%;
+}
+.projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  color: #fafafa;
+}
+.projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__header__javascript_smiles_game {
+  font-size: 48px;
+  padding-bottom: 50px;
+}
+.projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__text__javascript_smiles_game {
+  font-size: 24px;
+}
+.projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__button__javascript_smiles_game {
+  width: 150px;
+  background-color: #fc88b9;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.projects .projects__container .projects__memory_game {
+  display: flex;
+  background-color: #fc88b9;
+  height: 50vh;
+}
+.projects .projects__container .projects__memory_game .project__textcontainer__memory_game {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+  color: #fafafa;
+}
+.projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__header__memory_game {
+  font-size: 48px;
+  padding-bottom: 50px;
+}
+.projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__text__memory_game {
+  font-size: 24px;
+}
+.projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__button__memory_game {
+  width: 150px;
+  background-color: #fc88b9;
+  color: #fafafa;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+}
+.projects .projects__container .projects__memory_game .image__memory_game {
+  height: 100%;
+  width: 50%;
+  opacity: 50%;
+}
+
+.project__image:hover {
   -ms-transform: scale(0.93);
   -webkit-transform: scale(0.93);
   transform: scale(0.93);
-}
-
-.find_out_more_section {
-  background-color: #615eec;
-  height: 60vh;
-  max-width: 100%;
-}
-.find_out_more_section .form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  color: #615eec;
-  padding-top: 20px;
-}
-.find_out_more_section input {
-  width: 310px;
-  height: 66px;
-  border: 5px solid #fc88b9;
-  border-radius: 10px;
-  margin: 10px;
-}
-.find_out_more_section textarea {
-  border: 5px solid #fc88b9;
-  border-radius: 10px;
-  width: 310px;
-  height: 150px;
-  color: #615eec;
-}
-.find_out_more_section ::placeholder {
-  color: #615eec;
-  opacity: 0.8;
-}
-.find_out_more_section .form__heading {
-  color: #fc88b9;
-  text-align: center;
-  padding-top: 50px;
-  font-weight: bold;
-  font-size: 36px;
-  padding-bottom: 50px;
-}
-.find_out_more_section .form__button {
-  border: 5px solid #fc88b9;
-  color: #fc88b9;
-  background-color: #615eec;
-  margin: 20px;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  width: 200px;
-  height: 50px;
 }
 
 .socials {

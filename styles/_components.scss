@@ -183,13 +183,14 @@ nav {
 // same issue here with BEM/element naming?
 
 .projects {
-  background-color: $color-secondary;
+  color: $color-primary;
   height: 100vh;
   max-width: 100%;
-  // position: relative;
 
+  
   .projects__header {
-    color: $color-primary;
+    color: $color-secondary;
+    background-color: $color-primary;
     text-align: center;
     font-size: 36px;
     font-weight: bold;
@@ -203,79 +204,153 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-  }
+    background-color: $color-primary;
 
-  .project__image {
-    // padding-top: 25px;
-    height: 80vh;
-    width: 60vh;
-    object-fit: fill;
-    border: solid $color-white 10px;
-    border-radius: 20px;
-  }
+        .projects__javascript_smiles_game {
+        display: flex;
+        height: 50vh;
+
+    
+        .image__javascript_smiles_game {
+          height: 100%;
+          width: 50%;
+          opacity: 50%;
+        }
+
+        .project__textcontainer__javascript_smiles_game { 
+          height: 100%;
+          width: 50%;
+          padding: 10px;
+          color: $color-white;
+
+          .project__header__javascript_smiles_game {
+            font-size: 48px;
+            padding-bottom: 50px;
+          }
+
+          .project__text__javascript_smiles_game {
+            font-size: 24px;
+          }
+ 
+          .project__button__javascript_smiles_game {
+            width: 150px;
+            background-color: $color-secondary;
+            color: $color-white;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            border: none;
+
+          }
+        }
+      }
+
+
+          .projects__memory_game {
+            display: flex;
+            background-color: $color-secondary;
+            height: 50vh;
+  
+         
+  
+          .project__textcontainer__memory_game { 
+            height: 100%;
+            width: 50%;
+            padding: 10px;
+            color: $color-white;
+  
+            .project__header__memory_game {
+              font-size: 48px;
+              padding-bottom: 50px;
+            }
+  
+            .project__text__memory_game {
+              font-size: 24px;
+            }
+  
+            .project__button__memory_game {
+              width: 150px;
+              background-color: $color-secondary;
+              color: $color-white;
+              font-size: 18px;
+              border-radius: 10px;
+              cursor: pointer;
+              border: none;
+            }
+
+          }
+        
+            .image__memory_game {
+            height: 100%;
+            width: 50%;
+            opacity: 50%;
+            }
+        }
+      }
+   }
 
   .project__image:hover {
     -ms-transform: scale(0.93);
     -webkit-transform: scale(0.93);
     transform: scale(0.93);
   }
-}
 
-.find_out_more_section {
-  background-color: $color-primary;
-  height: 60vh;
-  max-width: 100%;
 
-  .form {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: $color-primary;
-    padding-top: 20px;
-  }
+// .find_out_more_section {
+//   background-color: $color-primary;
+//   height: 60vh;
+//   max-width: 100%;
 
-  input {
-    width: 310px;
-    height: 66px;
-    border: 5px solid $color-secondary;
-    border-radius: 10px;
-    margin: 10px;
-  }
+//   .form {
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     color: $color-primary;
+//     padding-top: 20px;
+//   }
 
-  textarea {
-    border: 5px solid $color-secondary;
-    border-radius: 10px;
-    width: 310px;
-    height: 150px;
-    color: $color-primary;
-  }
+//   input {
+//     width: 310px;
+//     height: 66px;
+//     border: 5px solid $color-secondary;
+//     border-radius: 10px;
+//     margin: 10px;
+//   }
 
-  ::placeholder {
-    color: $color-primary;
-    opacity: 0.8;
-  }
+//   textarea {
+//     border: 5px solid $color-secondary;
+//     border-radius: 10px;
+//     width: 310px;
+//     height: 150px;
+//     color: $color-primary;
+//   }
 
-  .form__heading {
-    color: $color-secondary;
-    text-align: center;
-    padding-top: 50px;
-    font-weight: bold;
-    font-size: 36px;
-    padding-bottom: 50px;
-  }
+//   ::placeholder {
+//     color: $color-primary;
+//     opacity: 0.8;
+//   }
 
-  .form__button {
-    border: 5px solid $color-secondary;
-    color: $color-secondary;
-    background-color: $color-primary;
-    margin: 20px;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    width: 200px;
-    height: 50px;
-  }
-}
+//   .form__heading {
+//     color: $color-secondary;
+//     text-align: center;
+//     padding-top: 50px;
+//     font-weight: bold;
+//     font-size: 36px;
+//     padding-bottom: 50px;
+//   }
+
+//   .form__button {
+//     border: 5px solid $color-secondary;
+//     color: $color-secondary;
+//     background-color: $color-primary;
+//     margin: 20px;
+//     border-radius: 10px;
+//     font-size: 16px;
+//     font-weight: bold;
+//     width: 200px;
+//     height: 50px;
+//   }
+// }
 
 .socials {
   background-color: $color-secondary;

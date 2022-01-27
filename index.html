@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SOD Portfolio</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <script src="https://kit.fontawesome.com/50e160d117.js" crossorigin="anonymous"></script>
   </head>
 
@@ -29,9 +29,9 @@
         <h2 class="intro__heading">Hello, I am....</h2>
         <h1 class="intro__subheading">Sasha</h1>
         <h1 class="intro__subheading">O'Donovan.</h1>
-        <h2 class="intro__end">Very Junior Web Developer | UK</h2>
-        <h3 class="intro__scroll">Scroll to get to know me</h3> 
-        <!-- when I change CSS to "intro__scroll" it loses styling? -->
+        <h2 class="intro__end">Junior Developer | Greater London | UK</h2>
+        <!-- <h3 class="intro__scroll">Scroll to get to know me</h3> 
+        when I change CSS to "intro__scroll" it loses styling? -->
       </div>
       
     </header>
@@ -46,7 +46,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
+    <!-- <section id="skills">
       <h1 class="skills">Skills.</h1>
       <div class="grid">
         <div  class="skills_icon skills_html5 first_icon"><i class="fab fa-html5 fa-5x"></i></div>
@@ -94,7 +94,7 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
 
   
 
@@ -102,22 +102,52 @@
 
     <section class="projects" id="projects">
       <h1 class="projects__header">Projects.</h1>
-        <container class="projects__container">
-          <img class="project__image project__image--one" src="./Animation.gif" alt="javascript memory game">
-          <div class="project__modalone"></div>
-     
-          <img class="project__image project__image--two" src="./smiles.gif" alt="photo of project">
-          <div class="project__modaltwo"></div>
 
-          <img class="project__image project__image--three" src="./pexels-tara-winstead-7123145.jpg" alt="photo of project">
+      <container class="projects__container">   
+
+          <section class="project__section projects__javascript_smiles_game">
+            <img class="project__image image__javascript_smiles_game" src="./smiles.gif" alt="javascript smiles game">
+          <section class="project__textcontainer__javascript_smiles_game">
+            <p class="project__header__javascript_smiles_game">Turn that Frown Upside Down</p>
+            <p class=" project__text__javascript_smiles_game">Tasked with creating a Hostile Aliens Challenge using an OOP Approach.
+              The game utilises my vanilla JavaScript skills and semantic HTML. 
+              This was my first attempt at OOP. I decided to there are already far too many alien games in the world so I changed it to "Turn that frown upside down". So when you hit the sad faces (aka ships) you turn them into smiling faces.</p>
+
+              <button class="project__button__javascript_smiles_game">Click</button>
+            </section>    
+          </section>
        
+
+       
+          <section class="project__section projects__memory_game">
+        <section class="project__textcontainer__memory_game">
+          <p class="project__header__memory_game">
+            The Memory Game
+          </p>
+          <p class=" project__text__memory_game">
+            We were tasked with creating our first vanilla JS game, I wanted to create a memory game using flags.
+
+            I intially designed the layout of the game on Figma https://www.figma.com/file/K1zKeJSRECYxoke32vx50T/Untitled?node-id=0%3A1
+            
+            The idea being that the player would need to memorise where the flags are on the screen and then have a set amount of time to find them.</p>
+
+            <button class="project__button__memory_game">Click</button>
+
+ 
+
+          </section>
+
+          <img class="project__image image__memory_game" src="./animation.gif" alt="javascript memory game">
+
         </container>
        
     </section>
 
+
+
     <!-- Find Out More Form -->
 
-    <section class="find_out_more_section" id="contact">
+    <!-- <section class="find_out_more_section" id="contact">
       <form action="" class="form">
         <h1 class="form__heading">Find Out More.</h1>
           <div class="form__name">
@@ -131,7 +161,7 @@
           </div>
           <button type="submit" class="form__button">Send Message.</button>
         </form>
-      </section>
+      </section> -->
 
     <!-- Social Links -->
 
