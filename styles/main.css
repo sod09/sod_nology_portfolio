@@ -83,35 +83,43 @@ nav a:hover {
 .about .about__title {
   color: #615eec;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
   font-weight: bold;
   font-size: 36px;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 .about .about__text {
   color: #fafafa;
-  text-align: justify;
+  text-align: center;
   padding: 25px 75px 0px 75px;
   font-size: 24px;
+}
+.about .skill__container {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.about .skill__container .skills_icon {
+  padding: 20px;
+  color: #fafafa;
 }
 .about .about__education__title {
   color: #615eec;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 20px;
   font-weight: bold;
   font-size: 36px;
 }
 .about .about__education {
   color: #fafafa;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 5px;
   font-size: 24px;
-  padding-bottom: 50px;
+  padding-bottom: 5px;
 }
 
 .projects {
   color: #615eec;
-  height: 100vh;
   max-width: 100%;
 }
 .projects .projects__header {
@@ -138,20 +146,21 @@ nav a:hover {
 .projects .projects__container .projects__javascript_smiles_game .image__javascript_smiles_game {
   height: 100%;
   width: 50%;
-  opacity: 50%;
+  opacity: 70%;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game {
   height: 100%;
   width: 50%;
-  padding: 10px;
+  padding: 20px;
   color: #fafafa;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__header__javascript_smiles_game {
-  font-size: 48px;
+  font-size: 30px;
   padding-bottom: 50px;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__text__javascript_smiles_game {
   font-size: 24px;
+  height: 40%;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__button__javascript_smiles_game {
   padding: 20px 20px;
@@ -172,15 +181,16 @@ nav a:hover {
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game {
   height: 100%;
   width: 50%;
-  padding: 10px;
+  padding: 20px;
   color: #fafafa;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__header__memory_game {
-  font-size: 48px;
+  font-size: 30px;
   padding-bottom: 50px;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__text__memory_game {
   font-size: 24px;
+  height: 40%;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__button__memory_game {
   padding: 20px 20px;
@@ -196,7 +206,7 @@ nav a:hover {
 .projects .projects__container .projects__memory_game .image__memory_game {
   height: 100%;
   width: 50%;
-  opacity: 50%;
+  opacity: 70%;
 }
 .projects .projects__morse {
   display: flex;
@@ -206,15 +216,16 @@ nav a:hover {
 .projects .projects__morse .project__textcontainer__morse {
   height: 100%;
   width: 50%;
-  padding: 10px;
+  padding: 20px;
   color: #fafafa;
 }
 .projects .projects__morse .project__textcontainer__morse .project__header__morse {
-  font-size: 48px;
+  font-size: 30px;
   padding-bottom: 50px;
 }
 .projects .projects__morse .project__textcontainer__morse .project__text__morse {
   font-size: 24px;
+  height: 40%;
 }
 .projects .projects__morse .project__textcontainer__morse .project__button__morse {
   padding: 20px 20px;
@@ -230,7 +241,7 @@ nav a:hover {
 .projects .projects__morse .image__morse {
   height: 100%;
   width: 50%;
-  opacity: 50%;
+  opacity: 70%;
 }
 .projects .projects__calculator {
   display: flex;
@@ -240,15 +251,16 @@ nav a:hover {
 .projects .projects__calculator .project__textcontainer__calculator {
   height: 100%;
   width: 50%;
-  padding: 10px;
+  padding: 20px;
   color: #fafafa;
 }
 .projects .projects__calculator .project__textcontainer__calculator .project__header__calculator {
-  font-size: 48px;
+  font-size: 30px;
   padding-bottom: 50px;
 }
 .projects .projects__calculator .project__textcontainer__calculator .project__text__calculator {
   font-size: 24px;
+  height: 40%;
 }
 .projects .projects__calculator .project__textcontainer__calculator .project__button__calculator {
   padding: 20px 20px;
@@ -264,7 +276,7 @@ nav a:hover {
 .projects .projects__calculator .image__calculator {
   height: 100%;
   width: 50%;
-  opacity: 50%;
+  opacity: 70%;
 }
 
 .project__image:hover {
@@ -274,38 +286,44 @@ nav a:hover {
 }
 
 .socials {
-  background-color: #fc88b9;
+  background-color: #615eec;
   height: 30vh;
   max-width: 100%;
   color: #fafafa;
-  padding-top: 100px;
   /* Visited link    */
   /* Mouse over link */
   /* Selected link   */
 }
+.socials .socials__header {
+  font-size: 36px;
+  text-align: center;
+  padding: 20px;
+}
 .socials .socials__container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 .socials a {
   color: #fafafa;
   /* Unvisited link  */
+  padding: 50px;
 }
 .socials a:visited {
   color: #fafafa;
 }
 .socials a:hover {
-  color: #615eec;
+  color: #fc88b9;
 }
 .socials a:active {
-  color: #615eec;
+  color: #fafafa;
 }
 
 .footer {
   max-width: 100%;
-  background-color: #615eec;
-  color: #fc88b9;
+  background-color: #fc88b9;
+  color: #fafafa;
   height: 10vh;
   justify-content: center;
   text-align: center;
@@ -468,7 +486,7 @@ nav a:hover {
 }
 .project__modalone .projectmodalone__container {
   color: #fafafa;
-  background-color: #615eec;
+  background-color: #fc88b9;
   height: 90%;
 }
 .project__modalone .projectmodalone__container .projectmodalone__image {
@@ -511,7 +529,7 @@ nav a:hover {
 .project__modalone .projectmodalone__container .projectmodalone__textcontainer .projectmodalone__skillscontainer .skills__tag {
   padding: 5px 5px;
   background-color: #fafafa;
-  color: #fc88b9;
+  color: #615eec;
   border-radius: 10px;
   width: 30%;
   margin: 5px;
@@ -523,7 +541,7 @@ nav a:hover {
 .project__modalone .projectmodalone__container .projectmodalone__buttons button {
   padding: 20px 20px;
   width: 150px;
-  background-color: #fc88b9;
+  background-color: #615eec;
   color: #fafafa;
   font-size: 18px;
   border-radius: 10px;
@@ -610,7 +628,7 @@ nav a:hover {
 }
 .project__modalthree .projectmodalthree__container {
   color: #fafafa;
-  background-color: #615eec;
+  background-color: #fc88b9;
   height: 90%;
 }
 .project__modalthree .projectmodalthree__container .projectmodalthree__image {
@@ -653,7 +671,7 @@ nav a:hover {
 .project__modalthree .projectmodalthree__container .projectmodalthree__textcontainer .projectmodalthree__skillscontainer .skills__tag {
   padding: 5px 5px;
   background-color: #fafafa;
-  color: #fc88b9;
+  color: #615eec;
   border-radius: 10px;
   width: 30%;
   margin: 5px;
@@ -665,7 +683,7 @@ nav a:hover {
 .project__modalthree .projectmodalthree__container .projectmodalthree__buttons button {
   padding: 20px 20px;
   width: 150px;
-  background-color: #fc88b9;
+  background-color: #615eec;
   color: #fafafa;
   font-size: 18px;
   border-radius: 10px;

@@ -169,7 +169,7 @@ const projectInfoFour = () => {
   
   I also took a TDD approach and tested my code to ensure all functions and outputs were correct for the user. </p>
   </section>
-  <section class= "projectmodalthree__skillscontainer">
+  <section class= "projectmodalfour__skillscontainer">
   <p class = "skills_header">Skills.</p>
   <p class = "skills__tag">JavaScript</p>
   <p class = "skills__tag">TDD</p>

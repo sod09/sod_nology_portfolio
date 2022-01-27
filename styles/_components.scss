@@ -81,23 +81,34 @@ nav {
   .about__title {
     color: $color-primary;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     font-weight: bold;
     font-size: 36px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
   }
 
   .about__text {
     color: $color-white;
-    text-align: justify;
+    text-align: center;
     padding: 25px 75px 0px 75px;
     font-size: 24px;
+  }
+
+  .skill__container {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+
+    .skills_icon {
+      padding: 20px;
+      color: $color-white;
+    }
   }
 
   .about__education__title {
     color: $color-primary;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     font-weight: bold;
     font-size: 36px;
   }
@@ -105,9 +116,9 @@ nav {
   .about__education {
     color: $color-white;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 5px;
     font-size: 24px;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
   }
 }
 
@@ -184,7 +195,6 @@ nav {
 
 .projects {
   color: $color-primary;
-  height: 100vh;
   max-width: 100%;
 
   .projects__header {
@@ -212,22 +222,23 @@ nav {
       .image__javascript_smiles_game {
         height: 100%;
         width: 50%;
-        opacity: 50%;
+        opacity: 70%;
       }
 
       .project__textcontainer__javascript_smiles_game {
         height: 100%;
         width: 50%;
-        padding: 10px;
+        padding: 20px;
         color: $color-white;
 
         .project__header__javascript_smiles_game {
-          font-size: 48px;
+          font-size: 30px;
           padding-bottom: 50px;
         }
 
         .project__text__javascript_smiles_game {
           font-size: 24px;
+          height: 40%;
         }
 
         .project__button__javascript_smiles_game {
@@ -252,16 +263,17 @@ nav {
       .project__textcontainer__memory_game {
         height: 100%;
         width: 50%;
-        padding: 10px;
+        padding: 20px;
         color: $color-white;
 
         .project__header__memory_game {
-          font-size: 48px;
+          font-size: 30px;
           padding-bottom: 50px;
         }
 
         .project__text__memory_game {
           font-size: 24px;
+          height: 40%;
         }
 
         .project__button__memory_game {
@@ -280,7 +292,7 @@ nav {
       .image__memory_game {
         height: 100%;
         width: 50%;
-        opacity: 50%;
+        opacity: 70%;
       }
     }
   }
@@ -293,16 +305,17 @@ nav {
     .project__textcontainer__morse {
       height: 100%;
       width: 50%;
-      padding: 10px;
+      padding: 20px;
       color: $color-white;
 
       .project__header__morse {
-        font-size: 48px;
+        font-size: 30px;
         padding-bottom: 50px;
       }
 
       .project__text__morse {
         font-size: 24px;
+        height: 40%;
       }
 
       .project__button__morse {
@@ -321,7 +334,7 @@ nav {
     .image__morse {
       height: 100%;
       width: 50%;
-      opacity: 50%;
+      opacity: 70%;
     }
   }
 
@@ -333,16 +346,17 @@ nav {
     .project__textcontainer__calculator {
       height: 100%;
       width: 50%;
-      padding: 10px;
+      padding: 20px;
       color: $color-white;
 
       .project__header__calculator {
-        font-size: 48px;
+        font-size: 30px;
         padding-bottom: 50px;
       }
 
       .project__text__calculator {
         font-size: 24px;
+        height: 40%;
       }
 
       .project__button__calculator {
@@ -361,7 +375,7 @@ nav {
     .image__calculator {
       height: 100%;
       width: 50%;
-      opacity: 50%;
+      opacity: 70%;
     }
   }
 }
@@ -429,20 +443,27 @@ nav {
 // }
 
 .socials {
-  background-color: $color-secondary;
+  background-color: $color-primary;
   height: 30vh;
   max-width: 100%;
   color: $color-white;
-  padding-top: 100px;
+
+  .socials__header {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px;
+  }
 
   .socials__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    padding: 20px;
   }
 
   a {
     color: $color-white; /* Unvisited link  */
+    padding: 50px;
   }
 
   a:visited {
@@ -450,18 +471,18 @@ nav {
   } /* Visited link    */
 
   a:hover {
-    color: $color-primary;
+    color: $color-secondary;
   } /* Mouse over link */
 
   a:active {
-    color: $color-primary;
+    color: $color-white;
   } /* Selected link   */
 }
 
 .footer {
   max-width: 100%;
-  background-color: $color-primary;
-  color: $color-secondary;
+  background-color: $color-secondary;
+  color: $color-white;
   height: 10vh;
   justify-content: center;
   text-align: center;
