@@ -111,7 +111,7 @@ nav a:hover {
   text-align: center;
   padding-top: 5px;
   font-size: 24px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
 }
 
 .projects {
@@ -179,6 +179,9 @@ nav a:hover {
   width: 50%;
   padding: 20px;
   color: #fafafa;
+}
+.projects .projects__container .projects__memory_game .project__textcontainer__memory_game a {
+  text-decoration: none;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__header__memory_game {
   font-size: 30px;
