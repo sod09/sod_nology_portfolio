@@ -50,15 +50,17 @@
       font-size: 30px;
       line-height: 50px;
     }
+  }
 
+  header {
     .intro__scroll {
       font-size: 11px;
-      padding-top: 10px;
+      padding: 0px;
     }
   }
 
   .about {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 
     .about__title {
@@ -73,24 +75,16 @@
       font-size: 20px;
     }
 
-    .education__container {
-      background-color: red;
+    .about__education__title {
+      font-size: 24px;
+    }
 
-      .about__education__title {
-        font-size: 24px;
-      }
+    .skills_icon {
+      font-size: 16px;
+    }
 
-      .skills_icon {
-        font-size: 16px;
-      }
-
-      .about__education {
-        font-size: 16px;
-        height: 30%;
-        background-color: $color-secondary;
-        border: red solid 2px;
-        margin-bottom: 50px;
-      }
+    .about__education {
+      font-size: 16px;
     }
   }
 
@@ -460,13 +454,14 @@
 
   .socials {
     height: 20vh;
-    padding-top: 0px;
 
     .socials__header {
       font-size: 24px;
     }
 
     .socials__container {
+      padding: 0px;
+
       i {
         font-size: 30px;
       }

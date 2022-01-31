@@ -66,10 +66,10 @@ nav a:hover {
 
 header .intro__scroll {
   color: #fc88b9;
-  font-size: 25px;
+  font-size: 36px;
   font-weight: bold;
   text-align: center;
-  padding-top: 1000px;
+  padding-top: 600px;
 }
 
 .about {
@@ -89,29 +89,31 @@ header .intro__scroll {
   color: #fafafa;
   text-align: center;
   padding: 25px 75px 0px 75px;
-  font-size: 24px;
+  font-size: 28px;
 }
 .about .skill__container {
   display: flex;
-  margin: 10px;
+  margin: 80px;
   justify-content: center;
 }
 .about .skill__container .skills_icon {
-  padding: 20px;
+  padding: 28px;
   color: #fafafa;
+  font-size: 28px;
 }
 .about .about__education__title {
   color: #615eec;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 20px;
   font-weight: bold;
   font-size: 36px;
+  padding-bottom: 5px;
 }
 .about .about__education {
   color: #fafafa;
   text-align: center;
   padding-top: 5px;
-  font-size: 24px;
+  font-size: 28px;
   padding-bottom: 20px;
 }
 
@@ -152,11 +154,11 @@ header .intro__scroll {
   color: #fafafa;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__header__javascript_smiles_game {
-  font-size: 30px;
+  font-size: 36px;
   padding-bottom: 50px;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__text__javascript_smiles_game {
-  font-size: 24px;
+  font-size: 28px;
   height: 40%;
 }
 .projects .projects__container .projects__javascript_smiles_game .project__textcontainer__javascript_smiles_game .project__button__javascript_smiles_game {
@@ -165,7 +167,7 @@ header .intro__scroll {
   width: 300px;
   background-color: #fc88b9;
   color: #fafafa;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
@@ -185,11 +187,11 @@ header .intro__scroll {
   text-decoration: none;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__header__memory_game {
-  font-size: 30px;
+  font-size: 36px;
   padding-bottom: 50px;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__text__memory_game {
-  font-size: 24px;
+  font-size: 28px;
   height: 40%;
 }
 .projects .projects__container .projects__memory_game .project__textcontainer__memory_game .project__button__memory_game {
@@ -198,7 +200,7 @@ header .intro__scroll {
   width: 300px;
   background-color: #615eec;
   color: #fafafa;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
@@ -220,11 +222,11 @@ header .intro__scroll {
   color: #fafafa;
 }
 .projects .projects__morse .project__textcontainer__morse .project__header__morse {
-  font-size: 30px;
+  font-size: 36px;
   padding-bottom: 50px;
 }
 .projects .projects__morse .project__textcontainer__morse .project__text__morse {
-  font-size: 24px;
+  font-size: 28px;
   height: 40%;
 }
 .projects .projects__morse .project__textcontainer__morse .project__button__morse {
@@ -233,7 +235,7 @@ header .intro__scroll {
   width: 300px;
   background-color: #fc88b9;
   color: #fafafa;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
@@ -255,11 +257,11 @@ header .intro__scroll {
   color: #fafafa;
 }
 .projects .projects__calculator .project__textcontainer__calculator .project__header__calculator {
-  font-size: 30px;
+  font-size: 36px;
   padding-bottom: 50px;
 }
 .projects .projects__calculator .project__textcontainer__calculator .project__text__calculator {
-  font-size: 24px;
+  font-size: 28px;
   height: 40%;
 }
 .projects .projects__calculator .project__textcontainer__calculator .project__button__calculator {
@@ -268,7 +270,7 @@ header .intro__scroll {
   width: 300px;
   background-color: #615eec;
   color: #fafafa;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
   border: none;
@@ -303,7 +305,7 @@ header .intro__scroll {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 70px;
 }
 .socials a {
   color: #fafafa;
@@ -381,13 +383,14 @@ header .intro__scroll {
     font-size: 30px;
     line-height: 50px;
   }
-  .intro .intro__scroll {
+
+  header .intro__scroll {
     font-size: 11px;
-    padding-top: 10px;
+    padding: 0px;
   }
 
   .about {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
   }
   .about .about__title {
@@ -399,21 +402,14 @@ header .intro__scroll {
   .about i {
     font-size: 20px;
   }
-  .about .education__container {
-    background-color: red;
-  }
-  .about .education__container .about__education__title {
+  .about .about__education__title {
     font-size: 24px;
   }
-  .about .education__container .skills_icon {
+  .about .skills_icon {
     font-size: 16px;
   }
-  .about .education__container .about__education {
+  .about .about__education {
     font-size: 16px;
-    height: 30%;
-    background-color: #fc88b9;
-    border: red solid 2px;
-    margin-bottom: 50px;
   }
 
   .projects .project__modalone .projectmodalone__container {
@@ -671,10 +667,12 @@ header .intro__scroll {
 
   .socials {
     height: 20vh;
-    padding-top: 0px;
   }
   .socials .socials__header {
     font-size: 24px;
+  }
+  .socials .socials__container {
+    padding: 0px;
   }
   .socials .socials__container i {
     font-size: 30px;

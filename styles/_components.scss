@@ -60,10 +60,10 @@ nav {
 header {
   .intro__scroll {
     color: $color-secondary;
-    font-size: 25px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
-    padding-top: 1000px;
+    padding-top: 600px;
   }
 }
 
@@ -85,33 +85,35 @@ header {
     color: $color-white;
     text-align: center;
     padding: 25px 75px 0px 75px;
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .skill__container {
     display: flex;
-    margin: 10px;
+    margin: 80px;
     justify-content: center;
 
     .skills_icon {
-      padding: 20px;
+      padding: 28px;
       color: $color-white;
+      font-size: 28px;
     }
   }
 
   .about__education__title {
     color: $color-primary;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 20px;
     font-weight: bold;
     font-size: 36px;
+    padding-bottom: 5px;
   }
 
   .about__education {
     color: $color-white;
     text-align: center;
     padding-top: 5px;
-    font-size: 24px;
+    font-size: 28px;
     padding-bottom: 20px;
   }
 }
@@ -226,12 +228,12 @@ header {
         color: $color-white;
 
         .project__header__javascript_smiles_game {
-          font-size: 30px;
+          font-size: 36px;
           padding-bottom: 50px;
         }
 
         .project__text__javascript_smiles_game {
-          font-size: 24px;
+          font-size: 28px;
           height: 40%;
         }
 
@@ -241,7 +243,7 @@ header {
           width: 300px;
           background-color: $color-secondary;
           color: $color-white;
-          font-size: 18px;
+          font-size: 20px;
           border-radius: 10px;
           cursor: pointer;
           border: none;
@@ -265,12 +267,12 @@ header {
         }
 
         .project__header__memory_game {
-          font-size: 30px;
+          font-size: 36px;
           padding-bottom: 50px;
         }
 
         .project__text__memory_game {
-          font-size: 24px;
+          font-size: 28px;
           height: 40%;
         }
 
@@ -280,7 +282,7 @@ header {
           width: 300px;
           background-color: $color-primary;
           color: $color-white;
-          font-size: 18px;
+          font-size: 20px;
           border-radius: 10px;
           cursor: pointer;
           border: none;
@@ -307,12 +309,12 @@ header {
       color: $color-white;
 
       .project__header__morse {
-        font-size: 30px;
+        font-size: 36px;
         padding-bottom: 50px;
       }
 
       .project__text__morse {
-        font-size: 24px;
+        font-size: 28px;
         height: 40%;
       }
 
@@ -322,7 +324,7 @@ header {
         width: 300px;
         background-color: $color-secondary;
         color: $color-white;
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 10px;
         cursor: pointer;
         border: none;
@@ -348,12 +350,12 @@ header {
       color: $color-white;
 
       .project__header__calculator {
-        font-size: 30px;
+        font-size: 36px;
         padding-bottom: 50px;
       }
 
       .project__text__calculator {
-        font-size: 24px;
+        font-size: 28px;
         height: 40%;
       }
 
@@ -363,7 +365,7 @@ header {
         width: 300px;
         background-color: $color-primary;
         color: $color-white;
-        font-size: 18px;
+        font-size: 20px;
         border-radius: 10px;
         cursor: pointer;
         border: none;
@@ -456,7 +458,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 70px;
   }
 
   a {
