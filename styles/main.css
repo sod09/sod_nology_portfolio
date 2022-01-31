@@ -75,7 +75,7 @@ header .intro__scroll {
 .about {
   background-color: #fc88b9;
   max-width: 100%;
-  height: 60vh;
+  height: 100%;
 }
 .about .about__title {
   color: #615eec;
