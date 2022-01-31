@@ -68,7 +68,8 @@ nav a:hover {
   writing-mode: vertical-rl;
   font-size: 25px;
   font-weight: bold;
-  padding: 20px;
+  padding-bottom: 50px;
+  padding-right: 30px;
 }
 
 .about {
@@ -527,7 +528,6 @@ nav a:hover {
   }
   .projects .project__modalfour .projectmodalfour__container {
     height: 80%;
-    width: fit-content;
   }
   .projects .project__modalfour .projectmodalfour__container .projectmodalfour__image {
     padding: 5px 5px;
