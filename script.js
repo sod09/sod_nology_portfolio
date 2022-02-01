@@ -59,7 +59,7 @@ const projectInfoTwo = () => {
   projectModalTwo.innerHTML = `
 
   <section class="projectmodaltwo__container">
-  <img class="projectmodaltwo__image" src="./images/memorygame.png">
+  <img class="projectmodaltwo__image" src="./images/Memorygame.png">
 
   <section class= "projectmodaltwo__textcontainer">
   <section class= "projectmodaltwo__maincontent">
