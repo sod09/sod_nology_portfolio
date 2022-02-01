@@ -62,11 +62,11 @@ header {
     color: $color-secondary;
     font-size: 36px;
     font-weight: bold;
-    text-align: center;
-    padding-top: 300px;
     animation-duration: 6s;
     animation-name: slidein;
     animation-iteration-count: infinite;
+    padding-top: 100px;
+    text-align: center;
   }
 
   @keyframes slidein {
