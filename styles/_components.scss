@@ -63,7 +63,22 @@ header {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
-    padding-top: 600px;
+    padding-top: 300px;
+    animation-duration: 6s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 }
 
@@ -233,7 +248,7 @@ header {
         }
 
         .project__text__javascript_smiles_game {
-          font-size: 28px;
+          font-size: 20px;
           height: 40%;
         }
 
@@ -272,7 +287,7 @@ header {
         }
 
         .project__text__memory_game {
-          font-size: 28px;
+          font-size: 20px;
           height: 40%;
         }
 
@@ -314,7 +329,7 @@ header {
       }
 
       .project__text__morse {
-        font-size: 28px;
+        font-size: 20px;
         height: 40%;
       }
 
@@ -355,7 +370,7 @@ header {
       }
 
       .project__text__calculator {
-        font-size: 28px;
+        font-size: 20px;
         height: 40%;
       }
 
